@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		104CA6E3A56B1EDCCB351377 /* libPods-KNMVC2MVVMDemo2Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 182A1A7E23A72FC4F57EF540 /* libPods-KNMVC2MVVMDemo2Tests.a */; };
+		11397116C186C4945012FA7A /* libPods-KNMVC2MVVMDemo2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE9C946262FFF48AA92CF381 /* libPods-KNMVC2MVVMDemo2.a */; };
 		E123A2D21F219C9900FAB8D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E123A2D11F219C9900FAB8D6 /* main.m */; };
 		E123A2D51F219C9900FAB8D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E123A2D41F219C9900FAB8D6 /* AppDelegate.m */; };
-		E123A2D81F219C9900FAB8D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E123A2D71F219C9900FAB8D6 /* ViewController.m */; };
 		E123A2DB1F219C9900FAB8D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E123A2D91F219C9900FAB8D6 /* Main.storyboard */; };
 		E123A2DD1F219C9900FAB8D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E123A2DC1F219C9900FAB8D6 /* Assets.xcassets */; };
 		E123A2E01F219C9900FAB8D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E123A2DE1F219C9900FAB8D6 /* LaunchScreen.storyboard */; };
 		E123A2EB1F219C9900FAB8D6 /* KNMVC2MVVMDemo2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E123A2EA1F219C9900FAB8D6 /* KNMVC2MVVMDemo2Tests.m */; };
 		E123A2F61F219C9900FAB8D6 /* KNMVC2MVVMDemo2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E123A2F51F219C9900FAB8D6 /* KNMVC2MVVMDemo2UITests.m */; };
+		E1E8D5601F219DF2006673E7 /* KNPersonViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E8D55F1F219DF2006673E7 /* KNPersonViewModel.m */; };
+		E1E8D5611F219DF2006673E7 /* KNPersonViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E8D55F1F219DF2006673E7 /* KNPersonViewModel.m */; };
+		E1E8D5621F219DF2006673E7 /* KNPersonViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E8D55F1F219DF2006673E7 /* KNPersonViewModel.m */; };
+		E1E8D5661F219E08006673E7 /* KNPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E8D5651F219E08006673E7 /* KNPerson.m */; };
+		E1E8D5671F219E08006673E7 /* KNPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E8D5651F219E08006673E7 /* KNPerson.m */; };
+		E1E8D5681F219E08006673E7 /* KNPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E8D5651F219E08006673E7 /* KNPerson.m */; };
+		E1E8D56C1F219E4D006673E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E8D56B1F219E4D006673E7 /* ViewController.m */; };
+		E1E8D56D1F219E4D006673E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E8D56B1F219E4D006673E7 /* ViewController.m */; };
+		E1E8D56E1F219E4D006673E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E8D56B1F219E4D006673E7 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +45,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		035F6965152E5C577A5C113E /* Pods-KNMVC2MVVMDemo2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KNMVC2MVVMDemo2Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KNMVC2MVVMDemo2Tests/Pods-KNMVC2MVVMDemo2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		182A1A7E23A72FC4F57EF540 /* libPods-KNMVC2MVVMDemo2Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KNMVC2MVVMDemo2Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4021AFD8BBB5EFD945BA78CB /* Pods-KNMVC2MVVMDemo2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KNMVC2MVVMDemo2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KNMVC2MVVMDemo2/Pods-KNMVC2MVVMDemo2.debug.xcconfig"; sourceTree = "<group>"; };
+		68FFBF8F51CEF04D29D5A0D4 /* Pods-KNMVC2MVVMDemo2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KNMVC2MVVMDemo2.release.xcconfig"; path = "Pods/Target Support Files/Pods-KNMVC2MVVMDemo2/Pods-KNMVC2MVVMDemo2.release.xcconfig"; sourceTree = "<group>"; };
+		96B62D993FAC6126C2F44699 /* Pods-KNMVC2MVVMDemo2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KNMVC2MVVMDemo2Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KNMVC2MVVMDemo2Tests/Pods-KNMVC2MVVMDemo2Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E123A2CD1F219C9900FAB8D6 /* KNMVC2MVVMDemo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KNMVC2MVVMDemo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E123A2D11F219C9900FAB8D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E123A2D31F219C9900FAB8D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E123A2D41F219C9900FAB8D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E123A2D61F219C9900FAB8D6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E123A2D71F219C9900FAB8D6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E123A2DA1F219C9900FAB8D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E123A2DC1F219C9900FAB8D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E123A2DF1F219C9900FAB8D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +64,13 @@
 		E123A2F11F219C9900FAB8D6 /* KNMVC2MVVMDemo2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KNMVC2MVVMDemo2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E123A2F51F219C9900FAB8D6 /* KNMVC2MVVMDemo2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNMVC2MVVMDemo2UITests.m; sourceTree = "<group>"; };
 		E123A2F71F219C9900FAB8D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1E8D55E1F219DF2006673E7 /* KNPersonViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNPersonViewModel.h; sourceTree = "<group>"; };
+		E1E8D55F1F219DF2006673E7 /* KNPersonViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNPersonViewModel.m; sourceTree = "<group>"; };
+		E1E8D5641F219E08006673E7 /* KNPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNPerson.h; sourceTree = "<group>"; };
+		E1E8D5651F219E08006673E7 /* KNPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNPerson.m; sourceTree = "<group>"; };
+		E1E8D56A1F219E4D006673E7 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E1E8D56B1F219E4D006673E7 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FE9C946262FFF48AA92CF381 /* libPods-KNMVC2MVVMDemo2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KNMVC2MVVMDemo2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11397116C186C4945012FA7A /* libPods-KNMVC2MVVMDemo2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				104CA6E3A56B1EDCCB351377 /* libPods-KNMVC2MVVMDemo2Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +100,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		506126596DDCD7C6B34C4536 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4021AFD8BBB5EFD945BA78CB /* Pods-KNMVC2MVVMDemo2.debug.xcconfig */,
+				68FFBF8F51CEF04D29D5A0D4 /* Pods-KNMVC2MVVMDemo2.release.xcconfig */,
+				96B62D993FAC6126C2F44699 /* Pods-KNMVC2MVVMDemo2Tests.debug.xcconfig */,
+				035F6965152E5C577A5C113E /* Pods-KNMVC2MVVMDemo2Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		802B2E24073EAE0599BE58F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE9C946262FFF48AA92CF381 /* libPods-KNMVC2MVVMDemo2.a */,
+				182A1A7E23A72FC4F57EF540 /* libPods-KNMVC2MVVMDemo2Tests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E123A2C41F219C9900FAB8D6 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +127,8 @@
 				E123A2E91F219C9900FAB8D6 /* KNMVC2MVVMDemo2Tests */,
 				E123A2F41F219C9900FAB8D6 /* KNMVC2MVVMDemo2UITests */,
 				E123A2CE1F219C9900FAB8D6 /* Products */,
+				506126596DDCD7C6B34C4536 /* Pods */,
+				802B2E24073EAE0599BE58F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +145,9 @@
 		E123A2CF1F219C9900FAB8D6 /* KNMVC2MVVMDemo2 */ = {
 			isa = PBXGroup;
 			children = (
-				E123A2D31F219C9900FAB8D6 /* AppDelegate.h */,
-				E123A2D41F219C9900FAB8D6 /* AppDelegate.m */,
-				E123A2D61F219C9900FAB8D6 /* ViewController.h */,
-				E123A2D71F219C9900FAB8D6 /* ViewController.m */,
-				E123A2D91F219C9900FAB8D6 /* Main.storyboard */,
-				E123A2DC1F219C9900FAB8D6 /* Assets.xcassets */,
-				E123A2DE1F219C9900FAB8D6 /* LaunchScreen.storyboard */,
-				E123A2E11F219C9900FAB8D6 /* Info.plist */,
+				E1E8D56F1F219E56006673E7 /* VC */,
+				E1E8D5691F219E0C006673E7 /* M  */,
+				E1E8D5631F219DF8006673E7 /* VM  */,
 				E123A2D01F219C9900FAB8D6 /* Supporting Files */,
 			);
 			path = KNMVC2MVVMDemo2;
@@ -117,6 +156,11 @@
 		E123A2D01F219C9900FAB8D6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E123A2DC1F219C9900FAB8D6 /* Assets.xcassets */,
+				E123A2DE1F219C9900FAB8D6 /* LaunchScreen.storyboard */,
+				E123A2E11F219C9900FAB8D6 /* Info.plist */,
+				E123A2D31F219C9900FAB8D6 /* AppDelegate.h */,
+				E123A2D41F219C9900FAB8D6 /* AppDelegate.m */,
 				E123A2D11F219C9900FAB8D6 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +184,34 @@
 			path = KNMVC2MVVMDemo2UITests;
 			sourceTree = "<group>";
 		};
+		E1E8D5631F219DF8006673E7 /* VM  */ = {
+			isa = PBXGroup;
+			children = (
+				E1E8D55E1F219DF2006673E7 /* KNPersonViewModel.h */,
+				E1E8D55F1F219DF2006673E7 /* KNPersonViewModel.m */,
+			);
+			name = "VM ";
+			sourceTree = "<group>";
+		};
+		E1E8D5691F219E0C006673E7 /* M  */ = {
+			isa = PBXGroup;
+			children = (
+				E1E8D5641F219E08006673E7 /* KNPerson.h */,
+				E1E8D5651F219E08006673E7 /* KNPerson.m */,
+			);
+			name = "M ";
+			sourceTree = "<group>";
+		};
+		E1E8D56F1F219E56006673E7 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				E1E8D56A1F219E4D006673E7 /* ViewController.h */,
+				E1E8D56B1F219E4D006673E7 /* ViewController.m */,
+				E123A2D91F219C9900FAB8D6 /* Main.storyboard */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E123A2FA1F219C9900FAB8D6 /* Build configuration list for PBXNativeTarget "KNMVC2MVVMDemo2" */;
 			buildPhases = (
+				80F2446D0BAD31C38CD2CB97 /* [CP] Check Pods Manifest.lock */,
 				E123A2C91F219C9900FAB8D6 /* Sources */,
 				E123A2CA1F219C9900FAB8D6 /* Frameworks */,
 				E123A2CB1F219C9900FAB8D6 /* Resources */,
+				E9C3B81F7CFD576F8DF90C5C /* [CP] Embed Pods Frameworks */,
+				DCD589EE5EB57B4BC7DAFA9C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +239,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E123A2FD1F219C9900FAB8D6 /* Build configuration list for PBXNativeTarget "KNMVC2MVVMDemo2Tests" */;
 			buildPhases = (
+				47527EA534E06B339F448847 /* [CP] Check Pods Manifest.lock */,
 				E123A2E21F219C9900FAB8D6 /* Sources */,
 				E123A2E31F219C9900FAB8D6 /* Frameworks */,
 				E123A2E41F219C9900FAB8D6 /* Resources */,
+				FE16BB9A431E355AA738B619 /* [CP] Embed Pods Frameworks */,
+				4D7CEDA6F6E79E369A170624 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,14 +349,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		47527EA534E06B339F448847 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4D7CEDA6F6E79E369A170624 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KNMVC2MVVMDemo2Tests/Pods-KNMVC2MVVMDemo2Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80F2446D0BAD31C38CD2CB97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DCD589EE5EB57B4BC7DAFA9C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KNMVC2MVVMDemo2/Pods-KNMVC2MVVMDemo2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9C3B81F7CFD576F8DF90C5C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KNMVC2MVVMDemo2/Pods-KNMVC2MVVMDemo2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE16BB9A431E355AA738B619 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KNMVC2MVVMDemo2Tests/Pods-KNMVC2MVVMDemo2Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E123A2C91F219C9900FAB8D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E123A2D81F219C9900FAB8D6 /* ViewController.m in Sources */,
 				E123A2D51F219C9900FAB8D6 /* AppDelegate.m in Sources */,
+				E1E8D5601F219DF2006673E7 /* KNPersonViewModel.m in Sources */,
+				E1E8D5661F219E08006673E7 /* KNPerson.m in Sources */,
 				E123A2D21F219C9900FAB8D6 /* main.m in Sources */,
+				E1E8D56C1F219E4D006673E7 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +459,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1E8D5611F219DF2006673E7 /* KNPersonViewModel.m in Sources */,
 				E123A2EB1F219C9900FAB8D6 /* KNMVC2MVVMDemo2Tests.m in Sources */,
+				E1E8D56D1F219E4D006673E7 /* ViewController.m in Sources */,
+				E1E8D5671F219E08006673E7 /* KNPerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +470,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1E8D5621F219DF2006673E7 /* KNPersonViewModel.m in Sources */,
 				E123A2F61F219C9900FAB8D6 /* KNMVC2MVVMDemo2UITests.m in Sources */,
+				E1E8D56E1F219E4D006673E7 /* ViewController.m in Sources */,
+				E1E8D5681F219E08006673E7 /* KNPerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +604,7 @@
 		};
 		E123A2FB1F219C9900FAB8D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4021AFD8BBB5EFD945BA78CB /* Pods-KNMVC2MVVMDemo2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FUV5KWMMAV;
@@ -437,6 +617,7 @@
 		};
 		E123A2FC1F219C9900FAB8D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68FFBF8F51CEF04D29D5A0D4 /* Pods-KNMVC2MVVMDemo2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FUV5KWMMAV;
@@ -449,6 +630,7 @@
 		};
 		E123A2FE1F219C9900FAB8D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96B62D993FAC6126C2F44699 /* Pods-KNMVC2MVVMDemo2Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = FUV5KWMMAV;
@@ -462,6 +644,7 @@
 		};
 		E123A2FF1F219C9900FAB8D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 035F6965152E5C577A5C113E /* Pods-KNMVC2MVVMDemo2Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = FUV5KWMMAV;
@@ -516,6 +699,7 @@
 				E123A2FC1F219C9900FAB8D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E123A2FD1F219C9900FAB8D6 /* Build configuration list for PBXNativeTarget "KNMVC2MVVMDemo2Tests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +708,7 @@
 				E123A2FF1F219C9900FAB8D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E123A3001F219C9900FAB8D6 /* Build configuration list for PBXNativeTarget "KNMVC2MVVMDemo2UITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +717,7 @@
 				E123A3021F219C9900FAB8D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
